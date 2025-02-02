@@ -13,7 +13,7 @@ client.once('ready', async () => {
     console.log(`Logged in as ${client.user.username}`);
 
     // Replace with the channel ID where you want to send messages
-    const channelId = '1209630080603791430'; 
+    const channelId = '1324311951433797663'; 
     const channel = await client.channels.fetch(channelId);
 
     if (!channel) {
